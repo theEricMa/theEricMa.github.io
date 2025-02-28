@@ -33,29 +33,48 @@ My research interest is 3D generation.
 # 📝 Publications 
 
 <!-- CVPR 2025 -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR_2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-to-Mesh Generation without 3D Data
+<!-- [](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhiyuan Ma**, Xinyue Liang, Rongyuan Wu, Xiangyu Zhu, Zhen Lei, Lei Zhang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+ <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- First work to adapt Stable Diffusion as a text-to-mesh generator without 3D data.
+- Achieved sub-second text-to-mesh generation in 4 steps.
+- Introduced only 2.6% more parameters to the original Stable Diffusion model.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/ECCV_2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01046.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhiyuan Ma**, Yuxiang Wei, Yabin Zhang, Xiangyu Zhu, Zhen Lei, Lei Zhang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- First work to propose a score distillation method to train text-to-3D generator across multiple text prompts.
+- Validated on 100K+ prompts using hyper-network, CNN and Transformer architectures.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/CVPR_2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[OTAvatar : One-shot Talking Face Avatar with Controllable Tri-plane Rendering](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_OTAvatar_One-Shot_Talking_Face_Avatar_With_Controllable_Tri-Plane_Rendering_CVPR_2023_paper.pdf)
+
+**Zhiyuan Ma**, Xiangyu Zhu, Guojun Qi, Zhen Lei, Lei Zhang
+
+<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- First work to adapt pre-trained 3D Face GANs for one-shot talking face generation.
+- Explicit 3D rendering can handle extreme head movements.
+</div>
+</div>
+
+
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
