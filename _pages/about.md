@@ -25,10 +25,11 @@ My research interest is 3D generation.
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 3 papers accepted by CVPR 2025, including 1 first-author paper.
-- *2024.09*: &nbsp;🎉🎉 1 paper accepted by NeurIPS 2024.
-- *2024.07*: &nbsp;🎉🎉 2 papers accepted by ECCV 2024, including 1 first-author paper.
-- *2023.02*: &nbsp;🎉🎉 1 first-author paper accepted by CVPR 2023.
+- *2025.02*: &nbsp;🎊 3 papers accepted by CVPR 2025, including 1 first-author paper.
+- *2024.09*: &nbsp;🥳 1 paper accepted by NeurIPS 2024.
+- *2024.07*: &nbsp;🎊 2 papers accepted by ECCV 2024, including 1 first-author paper.
+- *2024.02*: &nbsp;🥳 1 paper accepted by CVPR 2024.
+- *2023.02*: &nbsp;🎊 1 first-author paper accepted by CVPR 2023.
 
 # 📝 Publications 
 
@@ -76,11 +77,28 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 
 
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- ``Arxiv 2024``  [DiffSpeaker: Speech-Driven 3D Facial Animation with Diffusion Transformer](https://arxiv.org/pdf/2402.05712) \|
+**Zhiyuan Ma**, Xiangyu Zhu, Guojun Qi, Chen Qian, Zhaoxiang Zhang, Zhen Lei \| [code](https://github.com/theEricMa/DiffSpeaker)
 
-# 🎖 Honors and Awards
+- ``CVPR 2025`` [MVBoost: Boost 3D Reconstruction with Multi-View Refinement](https://arxiv.org/pdf/2411.17772) \|
+Xiangyu Liu\*, Xiaomei Zhang\*, **Zhiyuan Ma**, Xiangyu Zhu, Zhen Lei \| [code](https://github.com/Piggy-ch/MVBoost)
+
+- ``CVPR 2025`` [Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach](https://arxiv.org/pdf/2412.03017) \|
+Lingchen Sun, Rongyuan Wu, **Zhiyuan Ma**, Shuaizheng Liu, Qiaosi Yi, Lei Zhang \| [code](https://github.com/csslc/PiSA-SR)
+
+- ``NeurIPS 2024`` [One-Step Effective Diffusion Network for Real-World Image Super-Resolution](https://arxiv.org/pdf/2406.08177) \|
+Rongyuan Wu\*, Lingchen Sun\*, **Zhiyuan Ma\***, Lei Zhang \| [code](https://github.com/cswry/OSEDiff)
+
+
+- ``CVPR 2024`` [Dual memory networks: A versatile adaptation approach for vision-language models](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Dual_Memory_Networks_A_Versatile_Adaptation_Approach_for_Vision-Language_Models_CVPR_2024_paper.pdf) \| Yabin Zhang, Wenjie Zhu, Hui Tang, **Zhiyuan Ma**, Kaiyang Zhou, Lei Zhang \| [code](https://github.com/YBZh/DMN)
+
+- ``ECCV 2024`` [Dense Multimodal Alignment for Open-Vocabulary 3D Scene Understanding](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06612.pdf) \| Ruihuang Li, Zhengqiang Zhang, Chenhang He, **Zhiyuan Ma**, Vishal M Patel, Lei Zhang \| [code](https://github.com/lslrh/DMA)
+
+
+
+<!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
 - *2022.02 - now*, Ph.D. in Computer Science, Hong Kong Polytechnic University, Hong Kong, China.
@@ -92,5 +110,5 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2022.01 - 2022.05*, CASIA, Beijing, China.
+- *2022.01 - 2022.05*, CBSR, CASIA, Beijing, China.
 - *2021.09 - 2022.01*, AI Research Lab, JD, Beijing, China.
