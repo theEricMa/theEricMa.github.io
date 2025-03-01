@@ -43,7 +43,7 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 **Zhiyuan Ma**, Xinyue Liang, Rongyuan Wu, Xiangyu Zhu, Zhen Lei, Lei Zhang
 
  <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- First work to adapt Stable Diffusion as a text-to-mesh generator without 3D data.
+- First work to adapt Stable Diffusion as a text-to-mesh generator without 3D data as ground truths.
 - Achieved sub-second text-to-mesh generation in 4 steps.
 - Introduced only 2.6% more parameters to the original Stable Diffusion model.
 </div>
