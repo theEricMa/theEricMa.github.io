@@ -67,7 +67,7 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 
 [OTAvatar : One-shot Talking Face Avatar with Controllable Tri-plane Rendering](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_OTAvatar_One-Shot_Talking_Face_Avatar_With_Controllable_Tri-Plane_Rendering_CVPR_2023_paper.pdf)
 
-**Zhiyuan Ma**, Xiangyu Zhu, Guojun Qi, Zhen Lei, Lei Zhang
+**Zhiyuan Ma\***, Xiangyu Zhu\*, Guojun Qi, Zhen Lei, Lei Zhang
 
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - First work to adapt pre-trained 3D Face GANs for one-shot talking face generation.
