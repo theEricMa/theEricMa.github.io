@@ -16,7 +16,8 @@ jobs:
         sudo apt-get install python3-setuptools
     - name: Run
       env:
-        GITHUB_TOKEN: ${{ secrets.MY_PAT }} 
+        GITHUB_TOKEN: ${{ secrets.MY_PAT }}
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
@@ -28,5 +29,3 @@ jobs:
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
