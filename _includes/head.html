@@ -17,3 +17,112 @@
 <head>
   <base target="_blank">
 </head>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add validation code after the page is loaded
+    console.log("Starting validation for citation and stars display...");
+    
+    // 1. Create validation indicators
+    var validationDiv = document.createElement('div');
+    validationDiv.style.position = 'fixed';
+    validationDiv.style.top = '10px';
+    validationDiv.style.right = '10px';
+    validationDiv.style.backgroundColor = '#f8f9fa';
+    validationDiv.style.border = '1px solid #dee2e6';
+    validationDiv.style.padding = '15px';
+    validationDiv.style.borderRadius = '5px';
+    validationDiv.style.zIndex = '9999';
+    validationDiv.style.maxWidth = '400px';
+    validationDiv.innerHTML = '<h4>Citation & Stars Validator</h4><div id="validator-results"></div>';
+    document.body.appendChild(validationDiv);
+    
+    // 2. Check if the JSON data is loading
+    var results = document.getElementById('validator-results');
+    
+    // Determine the correct URL based on your config
+    var usesCDN = true; // Set this to match your site.google_scholar_stats_use_cdn
+    var repoName = "theEricMa/theEricMa.github.io"; // Replace with your actual repository name
+    
+    // Try both formats
+    var gsDataBaseUrl = usesCDN 
+        ? 'https://cdn.jsdelivr.net/gh/' + repoName + '@google-scholar-stats/' 
+        : 'https://raw.githubusercontent.com/' + repoName + '/google-scholar-stats/';
+    var jsonUrl = gsDataBaseUrl + "gs_data.json";
+    
+    results.innerHTML += '<p>Checking data at: <a href="' + jsonUrl + '" target="_blank">' + jsonUrl + '</a> (click to test link directly)</p>';
+    
+    // Add a fallback option
+    var fallbackUrl = 'https://raw.githubusercontent.com/' + repoName + '/google-scholar-stats/gs_data.json';
+    results.innerHTML += '<p>Fallback URL: <a href="' + fallbackUrl + '" target="_blank">' + fallbackUrl + '</a></p>';
+    
+    // 3. Try to load the JSON data
+    fetch(jsonUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.status);
+        }
+        return response.json();
+      })
+      .then(data => {
+        results.innerHTML += '<p style="color:green">✓ Data file loaded successfully</p>';
+        
+        // 4. Check if the data has publications
+        if (data.publications) {
+          results.innerHTML += '<p style="color:green">✓ Publications data exists</p>';
+          
+          // List the available paper IDs for reference
+          results.innerHTML += '<p>Available paper IDs:</p><ul>';
+          for (var paperId in data.publications) {
+            results.innerHTML += '<li>' + paperId + ' (Citations: ' + 
+                                data.publications[paperId].num_citations + ')</li>';
+          }
+          results.innerHTML += '</ul>';
+        } else {
+          results.innerHTML += '<p style="color:red">✗ No publications data found</p>';
+        }
+        
+        // 5. Check if GitHub repos data exists
+        if (data.github_repos) {
+          results.innerHTML += '<p style="color:green">✓ GitHub repos data exists</p>';
+          
+          // List the available repos for reference
+          results.innerHTML += '<p>Available repos:</p><ul>';
+          for (var repoName in data.github_repos) {
+            results.innerHTML += '<li>' + repoName + ' (Stars: ' + 
+                                data.github_repos[repoName].stars + ')</li>';
+          }
+          results.innerHTML += '</ul>';
+        } else {
+          results.innerHTML += '<p style="color:red">✗ No GitHub repos data found</p>';
+        }
+        
+        // 6. Check paper citation spans
+        var citationSpans = document.getElementsByClassName('show_paper_citations');
+        results.innerHTML += '<p>Found ' + citationSpans.length + ' citation display elements</p>';
+        
+        // 7. Check GitHub star spans
+        var starSpans = document.getElementsByClassName('show_github_stars');
+        results.innerHTML += '<p>Found ' + starSpans.length + ' GitHub stars display elements</p>';
+      })
+      .catch(error => {
+        results.innerHTML += '<p style="color:red">✗ Error loading data: ' + error.message + '</p>';
+        results.innerHTML += '<p>Troubleshooting tips:</p>' +
+                           '<ul>' +
+                           '<li>Check if your GitHub Actions workflow is succeeding</li>' +
+                           '<li>Verify the repository name in _config.yml is correct</li>' +
+                           '<li>Check if the "google-scholar-stats" branch exists</li>' +
+                           '<li>Ensure your Google Scholar ID is set correctly</li>' +
+                           '</ul>';
+      });
+    
+    // Add close button
+    var closeButton = document.createElement('button');
+    closeButton.innerText = 'Close';
+    closeButton.style.marginTop = '10px';
+    closeButton.onclick = function() {
+      document.body.removeChild(validationDiv);
+    };
+    validationDiv.appendChild(closeButton);
+  });
+</script>
