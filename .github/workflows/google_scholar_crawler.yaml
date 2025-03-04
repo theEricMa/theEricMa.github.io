@@ -23,9 +23,25 @@ jobs:
         pip3 install -r requirements.txt
         python3 main.py
         cd ./results
+        
+        # 显示当前所在目录和文件
+        pwd
+        ls -la
+        
         git init
         git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        
+        # 使用 echo 命令打印将用于推送的远程仓库地址（注意不要包含敏感信息）
+        echo "Remote repository: https://github.com/${GITHUB_REPOSITORY}.git"
+        
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.MY_PAT }}@github.com/${GITHUB_REPOSITORY}.git"
+        
         git add *.json
         git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        
+        # 添加更多的调试信息
+        echo "Pushing to google-scholar-stats branch..."
+        
+        # 使用 --verbose 获取更多日志
+        git push "${remote_repo}" HEAD:google-scholar-stats --force --verbose
