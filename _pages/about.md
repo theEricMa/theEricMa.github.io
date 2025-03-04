@@ -46,6 +46,7 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 - First work to adapt Stable Diffusion as a text-to-mesh generator without 3D data as ground truths.
 - Achieved sub-second text-to-mesh generation in 4 steps.
 - Introduced only 2.6% more parameters to the original Stable Diffusion model.
+- [GitHub](https://github.com/theEricMa/TriplaneTurbo) <span class='show_github_stars' data='TriplaneTurbo'></span> \| [HuggingFace Demo](https://huggingface.co/spaces/ZhiyuanthePony/TriplaneTurbo)
 </div>
 </div>
 
@@ -59,6 +60,7 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - First work to propose a score distillation method to train text-to-3D generator across multiple text prompts.
 - Validated on 100K+ prompts using hyper-network, CNN and Transformer architectures.
+- [GitHub](https://github.com/theEricMa/ScaleDreamer) <span class='show_github_stars' data='ScaleDreamer'></span> \| [Project Page](https://sites.google.com/view/scaledreamer-release/)
 </div>
 </div>
 
@@ -72,6 +74,7 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - First work to adapt pre-trained 3D Face GANs for one-shot talking face generation.
 - Explicit 3D rendering can handle extreme head movements.
+- [GitHub](https://github.com/theEricMa/OTAvatar) <span class='show_github_stars' data='OTAvatar'></span>  \| [Demo Video](https://www.youtube.com/watch?v=qpIoMYFr7Aw) \| [Report Recording](https://www.youtube.com/watch?v=4Ujd1TBylVE&t=19s)
 </div>
 </div>
 
