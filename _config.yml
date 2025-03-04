@@ -163,5 +163,5 @@ compress_html:
     envs: development
 
 # 将 google_scholar_id 和 scholar_id 设置为空或注释掉来禁用
-google_scholar_id:  # 留空
+google_scholar_id: "F15mLDYAAAAJ"
 scholar_id:         # 留空

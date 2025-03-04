@@ -9,17 +9,17 @@ redirect_from:
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@google-scholar-stats/" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/google-scholar-stats/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url = gsDataBaseUrl | append: "gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
 I'm a third year Ph.D. Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am jointly advised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) at PolyU and Prof. [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiangyu Zhu]() at Institute of Automation, Chinese Academy of Sciences (CASIA).
 
-My research interest is 3D generation. <a href='https://scholar.google.com/citations?user=F15mLDYAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interest is 3D generation. <a href='https://scholar.google.com/citations?user=F15mLDYAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 # 🔥 News
@@ -35,16 +35,16 @@ My research interest is 3D generation. <a href='https://scholar.google.com/citat
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR_2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-to-Mesh Generation without 3D Data
-<!-- [](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
+[Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-to-Mesh Generation without 3D Data](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 **Zhiyuan Ma**, Xinyue Liang, Rongyuan Wu, Xiangyu Zhu, Zhen Lei, Lei Zhang
 
- <strong><span class='show_paper_citations' data='F15mLDYAAAAJ:u5HHmVD_uO8C'></span></strong>
 - First work to adapt Stable Diffusion as a text-to-mesh generator without 3D data as ground truths.
 - Achieved sub-second text-to-mesh generation in 4 steps.
 - Introduced only 2.6% more parameters to the original Stable Diffusion model.
-- [GitHub](https://github.com/theEricMa/TriplaneTurbo) <span class='show_github_stars' data='TriplaneTurbo'></span> \| [HuggingFace Demo](https://huggingface.co/spaces/ZhiyuanthePony/TriplaneTurbo)
+<!-- - <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:u5HHmVD_uO8C">
+<img src="https://img.shields.io/badge/Citations-15-blue" alt="引用数"></a> -->
+- <a href="https://github.com/theEricMa/TriplaneTurbo"><img src="https://img.shields.io/github/stars/theEricMa/TriplaneTurbo?style=social" alt="GitHub stars"></a> \| [HuggingFace Demo](https://huggingface.co/spaces/ZhiyuanthePony/TriplaneTurbo)
 </div>
 </div>
 
@@ -55,10 +55,11 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 
 **Zhiyuan Ma**, Yuxiang Wei, Yabin Zhang, Xiangyu Zhu, Zhen Lei, Lei Zhang
 
-<strong><span class='show_paper_citations' data='F15mLDYAAAAJ:ALROH1vI_8AC'></span></strong>
+
 - First work to propose a score distillation method to train text-to-3D generator across multiple text prompts.
 - Validated on 100K+ prompts using hyper-network, CNN and Transformer architectures.
-- [GitHub](https://github.com/theEricMa/ScaleDreamer) <span class='show_github_stars' data='ScaleDreamer'></span> \| [Project Page](https://sites.google.com/view/scaledreamer-release/)
+- <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:qjMakFHDy7sC">
+<img src="https://img.shields.io/badge/Citations-12-blue" alt="引用数"></a> \| <a href="https://github.com/theEricMa/ScaleDreamer"><img src="https://img.shields.io/github/stars/theEricMa/ScaleDreamer?style=social" alt="GitHub stars"></a> \| [Project Page](https://sites.google.com/view/scaledreamer-release/)
 </div>
 </div>
 
@@ -69,31 +70,32 @@ Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-t
 
 **Zhiyuan Ma\***, Xiangyu Zhu\*, Guojun Qi, Zhen Lei, Lei Zhang
 
-<strong><span class='show_paper_citations' data='F15mLDYAAAAJ:ALROH1vI_8AC'></span></strong>
+
 - First work to adapt pre-trained 3D Face GANs for one-shot talking face generation.
 - Explicit 3D rendering can handle extreme head movements.
-- [GitHub](https://github.com/theEricMa/OTAvatar) <span class='show_github_stars' data='OTAvatar'></span>  \| [Demo Video](https://www.youtube.com/watch?v=qpIoMYFr7Aw) \| [Report Recording](https://www.youtube.com/watch?v=4Ujd1TBylVE&t=19s)
+- <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:u5HHmVD_uO8C">
+<img src="https://img.shields.io/badge/Citations-24-blue" alt="引用数"></a> \| <a href="https://github.com/theEricMa/OTAvatar"><img src="https://img.shields.io/github/stars/theEricMa/OTAvatar?style=social" alt="GitHub stars"></a> \| [Demo Video](https://www.youtube.com/watch?v=qpIoMYFr7Aw) \| [Report Recording](https://www.youtube.com/watch?v=4Ujd1TBylVE&t=19s)
 </div>
 </div>
 
 
 
 - ``Arxiv 2024``  [DiffSpeaker: Speech-Driven 3D Facial Animation with Diffusion Transformer](https://arxiv.org/pdf/2402.05712) \|
-**Zhiyuan Ma**, Xiangyu Zhu, Guojun Qi, Chen Qian, Zhaoxiang Zhang, Zhen Lei \| [code](https://github.com/theEricMa/DiffSpeaker)
+**Zhiyuan Ma**, Xiangyu Zhu, Guojun Qi, Chen Qian, Zhaoxiang Zhang, Zhen Lei \| <a href="https://github.com/theEricMa/DiffSpeaker"><img src="https://img.shields.io/github/stars/theEricMa/DiffSpeaker?style=social" alt="GitHub stars"></a>
 
 - ``CVPR 2025`` [MVBoost: Boost 3D Reconstruction with Multi-View Refinement](https://arxiv.org/pdf/2411.17772) \|
-Xiangyu Liu\*, Xiaomei Zhang\*, **Zhiyuan Ma**, Xiangyu Zhu, Zhen Lei \| [code](https://github.com/Piggy-ch/MVBoost)
+Xiangyu Liu\*, Xiaomei Zhang\*, **Zhiyuan Ma**, Xiangyu Zhu, Zhen Lei \| <a href="https://github.com/Piggy-ch/MVBoost"><img src="https://img.shields.io/github/stars/Piggy-ch/MVBoost?style=social" alt="GitHub stars"></a>
 
 - ``CVPR 2025`` [Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach](https://arxiv.org/pdf/2412.03017) \|
-Lingchen Sun, Rongyuan Wu, **Zhiyuan Ma**, Shuaizheng Liu, Qiaosi Yi, Lei Zhang \| [code](https://github.com/csslc/PiSA-SR)
+Lingchen Sun, Rongyuan Wu, **Zhiyuan Ma**, Shuaizheng Liu, Qiaosi Yi, Lei Zhang \| <a href="https://github.com/csslc/PiSA-SR"><img src="https://img.shields.io/github/stars/csslc/PiSA-SR?style=social" alt="GitHub stars"></a>
 
 - ``NeurIPS 2024`` [One-Step Effective Diffusion Network for Real-World Image Super-Resolution](https://arxiv.org/pdf/2406.08177) \|
-Rongyuan Wu\*, Lingchen Sun\*, **Zhiyuan Ma\***, Lei Zhang \| [code](https://github.com/cswry/OSEDiff)
+Rongyuan Wu\*, Lingchen Sun\*, **Zhiyuan Ma\***, Lei Zhang \| <a href="https://github.com/cswry/OSEDiff"><img src="https://img.shields.io/github/stars/cswry/OSEDiff?style=social" alt="GitHub stars"></a>
 
 
-- ``CVPR 2024`` [Dual memory networks: A versatile adaptation approach for vision-language models](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Dual_Memory_Networks_A_Versatile_Adaptation_Approach_for_Vision-Language_Models_CVPR_2024_paper.pdf) \| Yabin Zhang, Wenjie Zhu, Hui Tang, **Zhiyuan Ma**, Kaiyang Zhou, Lei Zhang \| [code](https://github.com/YBZh/DMN)
+- ``CVPR 2024`` [Dual memory networks: A versatile adaptation approach for vision-language models](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Dual_Memory_Networks_A_Versatile_Adaptation_Approach_for_Vision-Language_Models_CVPR_2024_paper.pdf) \| Yabin Zhang, Wenjie Zhu, Hui Tang, **Zhiyuan Ma**, Kaiyang Zhou, Lei Zhang \| <a href="https://github.com/YBZh/DMN"><img src="https://img.shields.io/github/stars/YBZh/DMN?style=social" alt="GitHub stars"></a>
 
-- ``ECCV 2024`` [Dense Multimodal Alignment for Open-Vocabulary 3D Scene Understanding](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06612.pdf) \| Ruihuang Li, Zhengqiang Zhang, Chenhang He, **Zhiyuan Ma**, Vishal M Patel, Lei Zhang \| [code](https://github.com/lslrh/DMA)
+- ``ECCV 2024`` [Dense Multimodal Alignment for Open-Vocabulary 3D Scene Understanding](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06612.pdf) \| Ruihuang Li, Zhengqiang Zhang, Chenhang He, **Zhiyuan Ma**, Vishal M Patel, Lei Zhang \| <a href="https://github.com/lslrh/DMA"><img src="https://img.shields.io/github/stars/lslrh/DMA?style=social" alt="GitHub stars"></a>
 
 
 
