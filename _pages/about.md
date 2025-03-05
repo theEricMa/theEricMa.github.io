@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a third year Ph.D. Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am jointly advised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) at PolyU and Prof. [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiangyu Zhu]() at Institute of Automation, Chinese Academy of Sciences (CASIA).
+Hi, I'm Zhiyuan Ma (马致远), a third year Ph.D. student in the Department of Computing (COMP) at Hong Kong Polytechnic University (PolyU). I am jointly advised by Prof. [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) at PolyU and Prof. [Zhen Lei](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiangyu Zhu]() at Institute of Automation, Chinese Academy of Sciences (CASIA).
 
 My research interest is 3D generation. <a href='https://scholar.google.com/citations?user=F15mLDYAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
@@ -58,8 +58,9 @@ My research interest is 3D generation. <a href='https://scholar.google.com/citat
 
 - First work to propose a score distillation method to train text-to-3D generator across multiple text prompts.
 - Validated on 100K+ prompts using hyper-network, CNN and Transformer architectures.
-- <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:qjMakFHDy7sC">
-<img src="https://img.shields.io/badge/Citations-12-blue" alt="引用数"></a> \| <a href="https://github.com/theEricMa/ScaleDreamer"><img src="https://img.shields.io/github/stars/theEricMa/ScaleDreamer?style=social" alt="GitHub stars"></a> \| [Project Page](https://sites.google.com/view/scaledreamer-release/)
+<!-- - <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:qjMakFHDy7sC">
+<img src="https://img.shields.io/badge/Citations-12-blue" alt="引用数"></a> \|  -->
+- <a href="https://github.com/theEricMa/ScaleDreamer"><img src="https://img.shields.io/github/stars/theEricMa/ScaleDreamer?style=social" alt="GitHub stars"></a> \| [Project Page](https://sites.google.com/view/scaledreamer-release/)
 </div>
 </div>
 
@@ -73,8 +74,9 @@ My research interest is 3D generation. <a href='https://scholar.google.com/citat
 
 - First work to adapt pre-trained 3D Face GANs for one-shot talking face generation.
 - Explicit 3D rendering can handle extreme head movements.
-- <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:u5HHmVD_uO8C">
-<img src="https://img.shields.io/badge/Citations-24-blue" alt="引用数"></a> \| <a href="https://github.com/theEricMa/OTAvatar"><img src="https://img.shields.io/github/stars/theEricMa/OTAvatar?style=social" alt="GitHub stars"></a> \| [Demo Video](https://www.youtube.com/watch?v=qpIoMYFr7Aw) \| [Report Recording](https://www.youtube.com/watch?v=4Ujd1TBylVE&t=19s)
+<!-- - <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F15mLDYAAAAJ&citation_for_view=F15mLDYAAAAJ:u5HHmVD_uO8C">
+<img src="https://img.shields.io/badge/Citations-24-blue" alt="引用数"></a> \| -->
+- <a href="https://github.com/theEricMa/OTAvatar"><img src="https://img.shields.io/github/stars/theEricMa/OTAvatar?style=social" alt="GitHub stars"></a> \| [Demo Video](https://www.youtube.com/watch?v=qpIoMYFr7Aw) \| [Report Recording](https://www.youtube.com/watch?v=4Ujd1TBylVE&t=19s)
 </div>
 </div>
 
